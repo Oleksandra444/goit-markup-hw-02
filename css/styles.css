@@ -6,6 +6,7 @@
     --third-text-color: #E7E9FC;
     --change-color: #404BBF;
     --backgroundcolor: #2E2F42;
+    --backgroundbtn: #F4F4FD;
 
 }
 
@@ -136,4 +137,23 @@ footer {background-color: var(--second-text-color);}
 
 .accent-footer {
     color: var(--third-text-color);
+}
+
+/* -----Portfolio----- */
+
+.filter-btn {
+    background-color: var(--backgroundbtn);
+    font-weight: 500;
+    
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: var(--logo-btn-color);
+
+}
+
+.filter-btn:hover, .filter-btn:focus {
+    background-color: var(--change-color);
+    color: var(--white-color);
 }
